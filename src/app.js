@@ -67,6 +67,19 @@ app.delete('/persons/:id', function(req, res) {
   })
 })
 
+app.get('/', function (req, res) {
+  res.send({
+      greeting: "Hola mundo"
+  })
+})
+
+app.get('*', function (req, res) {
+  res.send({
+      greeting: "Rutas invalidas"
+  })
+})
+
+
 app.listen(port,  function(){
     console.log('Server up and running on port', port);
 })
