@@ -1,4 +1,3 @@
-const validator = require('Validator')
 const mongoose = require('mongoose')
 
 const personSchema = mongoose.Schema({

@@ -1,7 +1,6 @@
 {
   "name": "MongoDB",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -14,5 +13,7 @@
     "mongodb": "^3.3.3",
     "mongoose": "^5.7.8",
     "validator": "^12.0.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
